@@ -7,7 +7,7 @@ import { Database, ref, get, update, push, remove, set } from '@angular/fire/dat
 import { AuthService } from '../../services/auth.service';
 import { LanguageService } from '../../services/language.service';
 import { ChartConfiguration } from 'chart.js';
-import { BaseChartDirective } from 'ng2-charts';
+import { BaseChartDirective, NgChartsModule } from 'ng2-charts';
 
 type Language = 'en' | 'ar';
 
@@ -59,7 +59,7 @@ interface Test {
     RouterModule,
     ReactiveFormsModule,
     FormsModule,
-    BaseChartDirective
+    NgChartsModule
   ],
   templateUrl: './principal-dashboardd.component.html',
   styleUrls: ['./principal-dashboardd.component.scss']

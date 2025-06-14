@@ -100,7 +100,12 @@ export class RegistrationCompletedComponent implements OnInit {
               });
             }
 
-            this.schools = schools.filter(school => !schoolsWithPrincipals.has(school.name));
+          // teachers should be able to register even if the school already has a principal
+          const isAssigningPrincipal = this.enseignantForm.get('role')?.value === 'Principal';
+
+          this.schools = isAssigningPrincipal
+            ? schools.filter(school => !schoolsWithPrincipals.has(school.name))
+            : schools;
 
             console.log('Available Schools:', this.schools);
             console.log('Schools with principals:', Array.from(schoolsWithPrincipals));
@@ -146,7 +151,7 @@ export class RegistrationCompletedComponent implements OnInit {
 
       const formData = {
         ...this.enseignantForm.value,
-        role: 'Principal',
+        // role: 'Principal',
         data_completed: true,
         updatedAt: new Date().toISOString()
       };

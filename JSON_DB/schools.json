@@ -1,0 +1,88 @@
+{
+  "School": {
+    "school_001": {
+      "name": "Tangier Science Academy",
+      "address": "123 Boulevard Mohamed V, Tangier",
+      "phone": "+212539001122",
+      "email": "info@tsa.ma",
+      "academy": "Tangier-Tetouan-Al Hoceima"
+    },
+    "school_002": {
+      "name": "Oujda Pioneer School",
+      "address": "Rue de Fès, Oujda",
+      "phone": "+212536884422",
+      "email": "contact@oujdaschool.ma",
+      "academy": "Oriental"
+    },
+    "school_003": {
+      "name": "Fès Learning Hub",
+      "address": "Avenue des Almohades, Fès",
+      "phone": "+212535223344",
+      "email": "info@feslh.ma",
+      "academy": "Fès-Meknès"
+    },
+    "school_004": {
+      "name": "Rabat Modern School",
+      "address": "Avenue Hassan II, Rabat",
+      "phone": "+212537882211",
+      "email": "admin@rms.edu.ma",
+      "academy": "Rabat-Salé-Kénitra"
+    },
+    "school_005": {
+      "name": "Khenifra Discovery School",
+      "address": "Centre Ville, Khenifra",
+      "phone": "+212533778899",
+      "email": "info@khenifra-discovery.ma",
+      "academy": "Beni Mellal-Khenifra"
+    },
+    "school_006": {
+      "name": "Casablanca International School",
+      "address": "Rue Massira, Casablanca",
+      "phone": "+212522998877",
+      "email": "admin@casintschool.org",
+      "academy": "Casablanca-Settat"
+    },
+    "school_007": {
+      "name": "Marrakech Learning Oasis",
+      "address": "Guéliz, Marrakech",
+      "phone": "+212524334455",
+      "email": "hello@marrakech-oasis.ma",
+      "academy": "Marrakech-Safi"
+    },
+    "school_008": {
+      "name": "Errachidia Innovation School",
+      "address": "Quartier Administratif, Errachidia",
+      "phone": "+212535667788",
+      "email": "contact@errachidia.edu.ma",
+      "academy": "Draa-Tafilalet"
+    },
+    "school_009": {
+      "name": "Agadir Knowledge Center",
+      "address": "Quartier Industriel, Agadir",
+      "phone": "+212528112233",
+      "email": "hello@agadirkc.ma",
+      "academy": "Souss-Massa"
+    },
+    "school_010": {
+      "name": "Guelmim Innovation Academy",
+      "address": "Centre Ville, Guelmim",
+      "phone": "+212528445566",
+      "email": "admin@guelmimacademy.ma",
+      "academy": "Guelmim-Oued Noun"
+    },
+    "school_011": {
+      "name": "Laayoune Smart School",
+      "address": "Rue Dakhla, Laayoune",
+      "phone": "+212528777111",
+      "email": "contact@laayouneschool.ma",
+      "academy": "Laayoune-Sakia El Hamra"
+    },
+    "school_012": {
+      "name": "Dakhla Future School",
+      "address": "Boulevard Oued Eddahab, Dakhla",
+      "phone": "+212528999000",
+      "email": "info@dakhlafuture.ma",
+      "academy": "Dakhla-Oued Ed-Dahab"
+    }
+  }
+}
